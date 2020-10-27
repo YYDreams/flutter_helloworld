@@ -9,20 +9,16 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("商品列表"),
+          title: Text("基础Widget"),
         ),
         body: HomeContent(),
       ),
     );
   }
 }
+//Text/Button/Image
 
-class HomeContent extends StatefulWidget {
-  @override
-  _HomeContentState createState() => _HomeContentState();
-}
-
-class _HomeContentState extends State<HomeContent> {
+class HomeContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container();
